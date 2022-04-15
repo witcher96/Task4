@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 72px;
+    height: 22px;
+}
+.container{
+    position: relative;
+    width: 380px;
+    height: 410px;
+    border: 1px solid #EBECEE;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+.forget{
+    position: absolute;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    left: 20px;
+    font-size: 15px;
+}
+.comp{
+    position: absolute;
+    margin-top: 50px;
+    left: 10px;
+    font-size: 14px;
+}
+.more{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+.account{
+    position: absolute;
+    border-radius: 2px;
+    left: 30px;
+    top: 320px;
+    text-decoration: none;
+    color: blue;
+    padding: 6px;
+    font-size: 12px;
+}
+.next{
+    position: absolute;
+    color: white;
+    padding: 6px;
+    border: 1px solid blue;
+    background-color: rgb(65, 65, 236);
+    text-decoration: none;
+    border-radius: 3px;
+    left: 280px;
+    top: 320px;
+    font-size: 12px;
+}
+.pde{
+    position: relative;
+    padding: 20px;
+    width: 320px;
+    margin-top: 10px;
+    height: 50px;    
+    text-align: 20px ; 
+}
+.pdemini{
+    position: absolute;
+    font-size: 10px;
+    color: blue;
+    background-color: white;
+    border: 2px solid white;
+    width: max-content;
+    z-index: 1;
+    margin-top: 12px;
+    margin-left: 12px;
+    opacity: 0;
+    transition: 0.1s;
+}
+.country{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 15px;
+    border: none;
+    width: max-content;
+    
+}
+.select{
+    width: 140px;
+    border: none;
+    font-size: 10px;
+}
+.help{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    margin-left: 80px;
+
+}
+.privacy{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    margin-left: 20px;
+
+}
+.terms{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.k1{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 250px;
+
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+.label:focus-within
+:first-child{
+    opacity: 1;
+    margin-top: 4px;
+    margin-left: 5px;
+    
+}
+.pde:focus{
+    border-color: blue;
+    outline: blue;
+    border-radius: 3px;
+}
+.pde::placeholder{
+    left: 60px;
+}
+
+.pde:focus::placeholder{
+    color:transparent;
+    
+}
+.account:hover{
+    background-color: #F6FAFE;
+    color: #2E60AF;
+}
+.next:hover{  
+    
+    background-color: #1B66CA;
+    box-shadow: 0px 10px 40px 20px;
+}
+
+.ark:active{
+    background-color: #E0E0E0;
+    color: #919191;
+    padding: 5px;
+
+   
+
+}
