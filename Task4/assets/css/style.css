@@ -85,7 +85,7 @@ body{
 }
 .country{
     position: absolute;
-    margin-left: 440px;
+    margin-left: 610px;
     margin-top: 15px;
     border: none;
     width: max-content;
@@ -116,14 +116,6 @@ body{
     font-size: 10px;
     margin-left: 20px;
 }
-.k1{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 250px;
-    
-
-}
-
 
 
 
